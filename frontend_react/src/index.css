@@ -1,0 +1,111 @@
+/* Estilos para la barra de navegación */
+nav {
+  background-color: #ef233c;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.nav-link {
+  color: #fbfef9;
+}
+
+.navbar-toggler {
+  border-color: #fbfef9;
+}
+
+.dropdown-menu {
+  background-color: #ef233c;
+  border-color: #fbfef9;
+}
+
+.dropdown-item {
+  color: #fbfef9;
+}
+
+/* Estilos para el contenido de la página */
+body {
+  background-color: #495867;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #fbfef9;
+}
+
+.container {
+  background-color: #ef233c; /*#911d2b; tal vez un color más oscuro*/
+  border-color: #fbfef9;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.modal-content {
+  background-color: #ef233c;
+  color: #fbfef9;
+  border-radius: 1rem;
+}
+
+form {
+  background-color: #ef233c;
+  border-color: #fbfef9;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.form-control {
+  background-color: #fbfef9;
+  color: #495867;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+label {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.btn-primary {
+  background-color: #fbfef9;
+  color: #495867;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  margin-top: 2rem;
+}
+
+.btn-primary:hover {
+  background-color: #ef233c;
+  color: #fbfef9;
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 767px) {
+  .dropdown-menu {
+    border: none;
+  }
+}
